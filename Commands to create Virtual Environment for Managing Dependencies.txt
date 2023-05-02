@@ -1,0 +1,35 @@
+1)Virtual Environment for Dependancy Management
+
+=>Run the following commands in the terminal
+  Step 1: python -m venv venvName
+
+          (Creating Python virtual environment
+           venvName = name of the environment)
+
+  Step 2: pip freeze > requirements.txt 
+
+          (Creating requirements files for all the dependencies which is installed globally)
+
+  Step 3: pip list 
+ 
+          (For viewing all the installed dependencies in that particullarly created environment)
+
+  Step 4: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+          (This command will allow to execute scripts which are restricted to execute because of the privacy policy while
+           maintaing the high level security and privacy policy. However, if we download the scripts from the internet or
+           any remote sources than PowerShell will only ask for permission to procced. Then scripts will run)
+
+  Step 5: venvName\Scripts\activate 
+ 
+          (This will activate the virtual environment)
+  
+  Step 6: pip install -r requirements.txt
+
+          (Install the requirements into virtual environment from global environment)
+
+  Step 6: Deactivate 
+
+          (To deactive the virtual environment) 
+
+           
