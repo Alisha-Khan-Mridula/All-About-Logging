@@ -1,0 +1,10 @@
+2023-05-02 11:42:16,368 - CRITICAL - This is a critical situation
+2023-05-02 11:42:48,910 - ERROR - This is an error
+2023-05-02 11:42:48,911 - ERROR - RUNTIME ERROR :: division by zero
+2023-05-02 11:42:50,142 - ERROR - This is an error
+2023-05-02 11:42:50,143 - ERROR - RUNTIME ERROR :: division by zero
+2023-05-02 11:42:59,215 - ERROR - RUNTIME ERROR :: division by zero
+2023-05-02 11:43:22,475 - INFO - Give some information
+2023-05-02 11:43:42,077 - DEBUG - Debuggig
+2023-05-02 11:43:43,439 - DEBUG - Debuggig
+2023-05-02 11:44:18,732 - WARNING - This is a warning message
