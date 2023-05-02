@@ -129,14 +129,14 @@ def debugging():
 
 @app.route('/information')
 def information():
-    logger.info('Give some information')
+    #logger.info('Give some information')
     return "Give some information" 
 
 
 
 @app.route('/criticalSituation')
 def criticalSituation():
-    logger.critical('This is a critical situation')
+    #logger.critical('This is a critical situation')
     return "This is a critical situation" 
 
 
@@ -158,7 +158,22 @@ def index(number1:int , number2:int):
 @app.teardown_request
 def teardownRequest(exception):
     if exception is not None:
-        logger.error( "RUNTIME ERROR :: " + str(exception)) 
+        logger.error( "RUNTIME ERROR :: " + str(exception))
+
+  
+# def logging_middleware(next_handler):
+#     def middleware(request):
+#         # Log the request details
+#         app.logger.info(f'Request: {request.method} {request.path} from {request.remote_addr} with data {request.data}')
+#         # Call the next handler in the chain
+#         response = next_handler(request)
+#         # Log the response details
+#         app.logger.info(f'Response: {response.status} {response.data}')
+#         # Return the response
+#     return middleware  
+
+    
+# app.before_request(logging_middleware(app.dispatch_request))         
         
 
 

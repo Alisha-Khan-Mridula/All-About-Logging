@@ -4,3 +4,11 @@
 2023-05-02 11:42:50,142 - ERROR - This is an error
 2023-05-02 11:42:50,143 - ERROR - RUNTIME ERROR :: division by zero
 2023-05-02 11:42:59,215 - ERROR - RUNTIME ERROR :: division by zero
+2023-05-02 11:58:18,911 - ERROR - RUNTIME ERROR :: <bound method Flask.dispatch_request of <Flask 'App'>>
+2023-05-02 11:58:26,310 - ERROR - RUNTIME ERROR :: <bound method Flask.dispatch_request of <Flask 'App'>>
+2023-05-02 11:58:38,298 - ERROR - RUNTIME ERROR :: 'NoneType' object is not callable
+2023-05-02 11:59:44,522 - ERROR - RUNTIME ERROR :: 'NoneType' object is not callable
+2023-05-02 11:59:46,711 - ERROR - RUNTIME ERROR :: 'NoneType' object is not callable
+2023-05-02 11:59:52,053 - ERROR - RUNTIME ERROR :: <bound method Flask.dispatch_request of <Flask 'App'>>
+2023-05-02 11:59:55,335 - ERROR - RUNTIME ERROR :: 'NoneType' object is not callable
+2023-05-02 11:59:56,903 - ERROR - RUNTIME ERROR :: 'NoneType' object is not callable
